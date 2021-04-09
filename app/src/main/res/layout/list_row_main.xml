@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout
+
+
+         android:background="@drawable/shape_design"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:weightSum="3"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_gravity="center"
+
+            android:background="@drawable/ic_drugs"
+            android:layout_weight="1"
+            android:id="@+id/drugicontv_id"
+            android:layout_width="120dp"
+            android:layout_height="25dp" />
+
+        <TextView
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:id="@+id/medicinenameid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_gravity="center"
+
+            android:layout_marginTop="6dp"
+            android:background="@drawable/right_arrow"
+
+            android:layout_weight="1"
+
+            android:id="@+id/right_arrowid"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content" />
+
+
+
+
+    </LinearLayout>
